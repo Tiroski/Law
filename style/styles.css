@@ -396,8 +396,10 @@ input[type=button]:hover {
 
 @media screen and (max-width: 300px) {
     .loginpage {
+        text-align:center;
+        display: block;
        width: 80%;
-        margin-left: 3rem;
+        margin:auto 9;
         
       
     }
