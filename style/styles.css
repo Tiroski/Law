@@ -296,6 +296,16 @@ hr {
     margin-bottom: 40px;
 }
 
+div.main {
+    width: 300px;
+    padding: 10px 50px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float: left;
+    margin-top: 50px;
+}
+
 input[type=text],
 input[type=password] {
     width: 100%;
@@ -314,6 +324,7 @@ label {
     text-shadow: 0 1px 0 #fff;
     font-size: 14px;
     font-weight: bold;
+    margin: 0;
 }
 
 center {
@@ -355,15 +366,22 @@ input[type=button]:hover {
 }
 
 .loginpage {
-    display: grid;
+    display: block;
     text-align: center;
-    position: relative;
     margin: auto;
     width: 50%;
     padding: 9px;
+    margin: auto;
 }
 
 .logindiv {
     width: 300px;
-    text-align: center;
+    padding: 10px 50px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    margin-top: 50px;
+    text-align: left;
+    background: transparent;
+    opacity: 0.9;
 }
