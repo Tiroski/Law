@@ -296,16 +296,6 @@ hr {
     margin-bottom: 40px;
 }
 
-div.main {
-    width: 300px;
-    padding: 10px 50px 25px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    font-family: raleway;
-    float: left;
-    margin-top: 50px;
-}
-
 input[type=text],
 input[type=password] {
     width: 100%;
@@ -375,12 +365,5 @@ input[type=button]:hover {
 
 .logindiv {
     width: 300px;
-    padding: 10px 50px 25px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    font-family: raleway;
-    margin-top: 50px;
-    text-align: left;
-    background: transparent;
-    opacity: 0.9;
+    text-align: center;
 }
