@@ -393,3 +393,12 @@ input[type=button]:hover {
         width: 300px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .loginpage {
+        padding-left: 10%;
+        margin-left: 0%;
+        width: 100%;
+        display: inline-block;
+    }
+}
