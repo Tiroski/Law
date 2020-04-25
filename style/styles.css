@@ -13,6 +13,9 @@
 
 .navbar {
     text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 .topnav {
@@ -23,17 +26,17 @@
     font-weight: bolder;
     font-family: papyrus;
     padding-left: 10px;
+    width: 100%;
 }
 
 .deco {
-    width: 450px;
+    width: 100%;
     height: 70px;
     display: table-cell;
 }
 
 .topnav a {
-    float: left;
-    display: block;
+    display: block-inline;
     color: black;
     text-align: center;
     padding: 10px 16px;
@@ -374,7 +377,7 @@ input[type=button]:hover {
 }
 
 .logindiv {
-    width: 300px;
+    width: 100%;
     padding: 10px 50px 25px;
     border: 2px solid gray;
     border-radius: 10px;
@@ -383,4 +386,10 @@ input[type=button]:hover {
     text-align: left;
     background: transparent;
     opacity: 0.9;
+}
+
+@media screen and (max-width: 1500px) {
+    .logindiv {
+        width: 300px;
+    }
 }
