@@ -398,7 +398,7 @@ input[type=button]:hover {
     .loginpage {
         text-align:center;
         display: block;
-       width: 80%;
+       width: fit-content;
         margin:auto;
         
       
